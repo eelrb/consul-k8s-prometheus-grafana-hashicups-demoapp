@@ -44,7 +44,7 @@ data:
         # Proxy pass the api location to save CORS
         # Use location exposed by Consul connect
         location /api {
-            proxy_pass http://cups-pub-api01:8080;
+            proxy_pass http://public-api:8080;
             
         }
 
